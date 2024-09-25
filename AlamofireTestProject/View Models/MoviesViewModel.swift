@@ -5,6 +5,7 @@ class MoviesViewModel: ObservableObject {
     @Published var errorMessage: String? = nil
     
     
+    
     init() {
         fetchPopularMovies()
     }
